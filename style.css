@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+.result,
+.quiz-app {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #e5e5e5;
+    padding: 20px;
+    border-radius: 8px;
+}
+.quiz-app.disabled ,
+.quiz-app.disabled button {
+    background-color: rgb(0, 0, 0, .2);
+    color: grey;
+    border-color: gray;
+}
+.quiz-app.disabled button:hover {
+    background-color: rgb(0, 0, 0, .2);
+    color: grey;
+}
+.quiz-app.disabled button:disabled {
+    cursor: auto;
+}
+.quiz-app.disabled i {
+    color: gray;
+}
+.quiz-app.disabled .bullets .spans span,
+.quiz-app.disabled .bullets span.active {
+    border-color: gray;
+    background-color: gray;
+}
+.quiz-app.disabled .select {
+    cursor: auto;
+}
+.quiz-app.disabled .bullets .countdown {
+    color: gray;
+}
+.quiz-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #eee;
+    padding: 20px;
+}
+.quiz-category ul,
+.quiz-category .select {
+    width: 180px;
+}
+.answers-number ul ,
+.answers-number .select {
+    width: 300px;
+}
+.quiz-options .select p {
+    text-transform: capitalize;
+    margin: 0;
+}
+.quiz-options p span {
+    display: flex;
+}
+.quiz-options ul {
+    margin: 10px 0;
+    display: none;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+}
+.quiz-options li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.quiz-options li p {
+    display: inline;
+    margin: 0;
+}
+.quiz-options li:not(:last-child) {
+    border-bottom: 1px solid #cbcbcb;
+}
+.quiz-options li:hover {
+    background-color: #fff;
+}
+.quiz-options li i,
+.quiz-options p i {
+    color: #ff4500;
+    margin-right: 10px;
+}
+.quiz-options button {
+    border: 1px solid #7CFC00;
+    color: #7CFC00;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.quiz-options button:focus {
+    outline: none;
+}
+.quiz-options button:hover {
+    background-color: #7CFC00;
+    color: white;
+}
+.quiz-info {
+    background-color: white;
+    border-radius: 8px;
+}
+.quiz-info h2 {
+    margin: 0;
+    padding: 20px;
+}
+.quiz-info .answers {
+    padding: 20px;
+}
+.quiz-info .answers .answer {
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 8px;
+    border-bottom: 1px solid #cbcbcb;
+}
+.quiz-info .answers .answer:hover {
+    cursor: pointer;
+}
+.quiz-info .answers .answer:not(:last-child) {
+    margin-bottom: 10px;
+}
+.quiz-info .answers .answer input {
+    cursor: pointer;
+}
+.quiz-info .answers .answer input:checked + label {
+    color: #20B2AA;
+    font-weight: bold;
+}
+.quiz-info .answers .answer label {
+    cursor: pointer;
+    color: #777;
+}
+button.submit-button {
+    display: none;
+    width: calc(100% - 40px);
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #20B2AA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px auto;
+}
+.bullets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bullets .spans {
+    display: flex;
+    gap: 10px;
+}
+.bullets .spans span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #20B2AA;
+}
+.bullets .spans span.active {
+    background-color: #20B2AA;
+}
+.bullets .countdown {
+    font-size: 25px;
+    font-weight: bold;
+    color: #20B2AA;
+}
+.result {
+    background-color: #7CFC00;
+    color: white;
+    text-align: center;
+}
+.result p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.popup {
+    width: fit-content;
+    background-color: #ff2727;
+    padding: 20px 40px;
+    border-radius: 8px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transition: all 0.6s ease-in-out;
+}
+.popup p {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "title": "What does HTML stand for?",
+        "answer_1": "HyperText Markup Language",
+        "answer_2": "HotMail",
+        "answer_3": "How to Make Lasagna",
+        "right_answer": "HyperText Markup Language"
+    },
+    {
+        "title": "How many tags are in a regular HTML element?",
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "right_answer": "2"
+    },
+    {
+        "title": "What is the difference between an opening tag and a closing tag?",
+        "answer_1": "Opening tag has a / in front.",
+        "answer_2": "There is no difference.",
+        "answer_3": "Closing tag has a / in front.",
+        "right_answer": "Closing tag has a / in front."
+    },
+    {
+        "title": "&ltbr/&gt What type of tag is this?",
+        "answer_1": "A broken one",
+        "answer_2": "Break tag",
+        "answer_3": "An opening tag",
+        "right_answer": "Break tag"
+    },
+    {
+        "title": "&ltbody&gt Is this an opening tag or a closing tag of an HTML element?",
+        "answer_1": "Opening tag",
+        "answer_2": "Closing tag",
+        "answer_3": "Not One Of This Choices",
+        "right_answer": "Opening tag"
+    },
+    {
+        "title": "&lt/body&gt Is this an opening tag or a closing tag of an HTML element?",
+        "answer_1": "Opening tag",
+        "answer_2": "Closing tag",
+        "answer_3": "Not One Of This Choices",
+        "right_answer": "Closing tag"
+    },
+    {
+        "title": "In which section or part of an HTML document is the meta tag typically located?",
+        "answer_1": "The last page",
+        "answer_2": "Any page",
+        "answer_3": "The second page",
+        "right_answer": "Any page"
+    },
+    {
+        "title": "Which is the correct way to tag an image?",
+        "answer_1": "src=”image.jpg/gif” alt=”type some text”",
+        "answer_2": "Src=”image.jpg/gif” alt=type some text”",
+        "answer_3": "&ltimg src=\"image.jpg/gif\" alt=\"type some text\"&gt",
+        "right_answer": "&ltimg src=\"image.jpg/gif\" alt=\"type some text\"&gt"
+    },
+    {
+        "title": "What is the term for an HTML element that lacks a closing tag?",
+        "answer_1": "Tag",
+        "answer_2": "Closed element",
+        "answer_3": "Empty element",
+        "right_answer": "Empty element"
+    },
+    {
+        "title": "Which of the following is an example of an empty element in HTML?",
+        "answer_1": "&ltimg/&gt",
+        "answer_2": "&ltimg&gt&lt/img&gt",
+        "answer_3": "&lt/img&gt",
+        "right_answer": "&ltimg/&gt"
+    },
+    {
+        "title": "In HTML, how should values be consistently enclosed?",
+        "answer_1": "Quotation marks",
+        "answer_2": "Commas",
+        "answer_3": "Parenthesis",
+        "right_answer": "Quotation marks"
+    },
+    {
+        "title": "Where do all items for the same website need to be saved?",
+        "answer_1": "Where ever is fine",
+        "answer_2": "In different folders",
+        "answer_3": "In the same folder",
+        "right_answer": "In the same folder"
+    },
+    {
+        "title": "What does &lta href=\"http://www.google.com\" title =\"Link to Google\" target=\"_blank\"&gtGoogle&lt/a&gt do?",
+        "answer_1": "Adds a search engine to the page",
+        "answer_2": "Adds a link to the word “Google” on the page",
+        "answer_3": "Nothing",
+        "right_answer": "Adds a link to the word “Google” on the page"
+    },
+    {
+        "title": "What is always a welcome page, and explains the purpose or topic of the site?",
+        "answer_1": "Homepage",
+        "answer_2": "Page 4",
+        "answer_3": "Table of contents",
+        "right_answer": "Homepage"
+    },
+    {
+        "title": "What does View Page Source(CTRL + U) do?",
+        "answer_1": "Nothing",
+        "answer_2": "Opens a new website.",
+        "answer_3": "Shows on the browser the HTML code used to create the website",
+        "right_answer": "Shows on the browser the HTML code used to create the website"
+    }
+]
